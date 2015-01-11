@@ -2,6 +2,8 @@
 
 Guard your arguments. Verify and throw error if they do not meet your contract
 
+[![build status](https://secure.travis-ci.org/anvaka/varta.png)](http://travis-ci.org/anvaka/varta)
+
 # usage
 
 ``` javascript
@@ -35,6 +37,7 @@ function log(logger) {
   // Our expectations are saved above. If the logger does not have all three
   // methods (`warn`, `info`, and `debug`) the code will throw an exception
   verify(logger);
+}
 ```
 
 # why?
