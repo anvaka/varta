@@ -1,6 +1,6 @@
 {
   "name": "varta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Guard your arguments. Verify and throw error if they do not meet your contract",
   "main": "index.js",
   "scripts": {
